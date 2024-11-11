@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    S3_BUCKET_NAME: "todo-frentend"
+    S3_BUCKET_NAME: "todo-frentend1"
     AWS_REGION: "us-east-1"  # Change this to your desired region
     FRONT_END_DIR: "build"   # This is the default build output for React, change if different
 
@@ -22,7 +22,7 @@ phases:
   post_build:
     commands:
       - echo Deploying to S3...
-      - aws s3 sync ./build/ s3://todo-frentend1 --delete
+      - aws s3 sync ./build/ s3://todo-frontend1 --delete
 
 artifacts:
   files:
