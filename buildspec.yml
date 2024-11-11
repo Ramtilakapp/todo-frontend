@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    S3_BUCKET_NAME: "todo-frentend1"
+    S3_BUCKET_NAME: "todo-frontend1"
     AWS_REGION: "us-east-1"  # Change this to your desired region
     FRONT_END_DIR: "build"   # This is the default build output for React, change if different
 
