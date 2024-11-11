@@ -22,7 +22,7 @@ phases:
   post_build:
     commands:
       - echo Deploying to S3...
-      - aws s3 sync ./build/ s3://todo-frentend --delete
+      - aws s3 sync ./build/ s3://todo-frentend1 --delete
 
 artifacts:
   files:
