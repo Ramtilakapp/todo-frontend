@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:5000/api', // Replace with your backend URL
+  baseURL: 'http://23.22.118.33:5000/api', // Replace with your backend URL
 });
 
 // Add a request interceptor to include the token in the Authorization header
